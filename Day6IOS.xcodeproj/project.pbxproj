@@ -13,6 +13,8 @@
 		9BC662F72416F6F800D82695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC662F52416F6F800D82695 /* Main.storyboard */; };
 		9BC662F92416F6FC00D82695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BC662F82416F6FC00D82695 /* Assets.xcassets */; };
 		9BC662FC2416F6FC00D82695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC662FA2416F6FC00D82695 /* LaunchScreen.storyboard */; };
+		9BC663042416F73E00D82695 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC663032416F73E00D82695 /* Person.swift */; };
+		9BC663062416FB8C00D82695 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC663052416FB8C00D82695 /* PersonTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9BC662F82416F6FC00D82695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BC662FB2416F6FC00D82695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BC662FD2416F6FC00D82695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC663032416F73E00D82695 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9BC663052416FB8C00D82695 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				9BC662F82416F6FC00D82695 /* Assets.xcassets */,
 				9BC662FA2416F6FC00D82695 /* LaunchScreen.storyboard */,
 				9BC662FD2416F6FC00D82695 /* Info.plist */,
+				9BC663032416F73E00D82695 /* Person.swift */,
+				9BC663052416FB8C00D82695 /* PersonTableViewCell.swift */,
 			);
 			path = Day6IOS;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				9BC662F42416F6F800D82695 /* ViewController.swift in Sources */,
 				9BC662F02416F6F800D82695 /* AppDelegate.swift in Sources */,
+				9BC663042416F73E00D82695 /* Person.swift in Sources */,
+				9BC663062416FB8C00D82695 /* PersonTableViewCell.swift in Sources */,
 				9BC662F22416F6F800D82695 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
