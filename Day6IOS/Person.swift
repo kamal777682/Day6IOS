@@ -14,9 +14,9 @@ struct Person
     var firstName : String
     var lastName : String
     var gender : String
-    var salary : Float
+    var salary :Double
     
-    init ( id : Int, firstName : String, lastname : String , gender : String , salary : Float)
+    init ( id : Int, firstName : String, lastname : String , gender : String , salary : Double)
     {
         self.id = id
         self.firstName = firstName

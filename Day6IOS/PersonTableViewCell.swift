@@ -18,7 +18,7 @@ class PersonTableViewCell: UITableViewCell {
   
     func setData()
     {
-        
+      
     }
     }
 
